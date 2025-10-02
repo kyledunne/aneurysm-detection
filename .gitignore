@@ -2,5 +2,4 @@ kaggle_evaluation
 segmentations
 series
 .idea
-initial-report.md
-initial-report.ipynb
+__pycache__

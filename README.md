@@ -64,8 +64,6 @@ Some DICOM image files are actually a series of images; in these cases, `train_l
 
 For the data preparation you are going to have to consult the [Jupyter notebook](notebook.ipynb). It required a lot of effort to convert this data into inputs that can be fed into a machine learning model. (My model will be a convolutional neural network defined using Keras).
 
-
-
 ### The Model
 
 I went down a bit of a rabbit hole trying to design an initial model architecture. Consulting examples from various places online, especially lectures from Professor Josh Hug and the book Deep Learning with Python by Francois Chollet (which is available for free online [here](https://deeplearningwithpython.io/chapters/), I came up with the following initial architecture:

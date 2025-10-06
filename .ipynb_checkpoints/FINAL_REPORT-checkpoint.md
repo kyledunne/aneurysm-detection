@@ -17,6 +17,7 @@ I hope to complete these tasks and analyze them by the due date of the final pro
 In this third part of the project, I plan to work on the following:
 
 - Update the pipeline and model to classify a whole series of images from a single patient (as in the competition), rather than just a single image as a time
+- Use all data instead of just a small subset; because the full dataset is so large, this will likely require data parallelism, using a multi-GPU VM from Google Cloud/Azure/AWS instead of Google Colab
 - Update the pipeline and model to also make predictions for the 13 different regions of the brain (as required by the competition), expanding the problem beyond simple binary classification
 - Look into using more advanced imaging techniques, such as object detection or even image segmentation, to attempt to improve classification performance (I think the most powerful approach would be to use a pre-existing image segmentation model that is trained on brain images to segment the image, and use that to transform the input data set into a different kind of dataset that only contains specific small regions of the images where an aneurysm could actually be, i.e., parts of the image that contain intersections of major blood vessels, and then train an image classifier on *that*.)
 - Look into ensembling, i.e., using multiple different models that perform well but are at the same time as different as possible from each other, and use a weighted sum of their predictions as the final prediction.

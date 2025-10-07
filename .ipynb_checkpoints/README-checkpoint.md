@@ -2,13 +2,24 @@
 
 ![Diagram of a cerebral aneurysm, showing swelling at the intersection of two blood vessels within the brain](images/aneurysm.jpg)
 
-### Project Structure
+### Team
 
-Please note the 3 main files in this project:
+I would like to thank Dr. Carlos Puyo, Niyati Shelat, and Yelena Trepetin for their important contributions to this project. While I completed the code and engineering portions of this project, Dr. Puyo, Niyati, and Yelena contributed invaluable feedback and medical expertise to guide my efforts.
 
-- This README file contains part 1 of my report. In this report, I provide background on the project and competition, introduce the dataset, prepare and process the data, and build an initial deep learning classification model to serve as a baseline for subsequent improvements.
-- The attached [Juypter Notebook - notebook.ipynb](notebook.ipynb) contains all of the code for this project.
-- [FINAL_REPORT.md](FINAL_REPORT.md) contains my report and analysis for everything beyond the initial model. (Not yet started)
+### Background
+
+This is my entry to the Kaggle/RSNA [Intercranial Aneurysm Detection Competition](https://www.kaggle.com/competitions/rsna-intracranial-aneurysm-detection), a competition to build a machine learning algorithm to identify aneurysms in various modalities of medical imaging. For important medical background on the competition, I highly recommend the following introduction by one of the competition hosts:
+
+[Overview of the Clinical Problem](https://www.kaggle.com/competitions/rsna-intracranial-aneurysm-detection/discussion/591648) by Maria Correia de Verdier
+
+The competition closes on October 14th and this repository will be constantly updated until (at least) then. I completed some assignments for a machine learning course relating to this project along the way, which I have moved into their own, separate repositories:
+
+ - [mlai-capstone](https://github.com/kyledunne/mlai-capstone)
+ - [mlai-capstone-final](https://github.com/kyledunne/mlai-capstone-final)
+
+---
+
+# Original Write-Up (WIP)
 
 ### Background
 
@@ -63,8 +74,6 @@ Some DICOM image files are actually a series of images; in these cases, `train_l
 ### Data Preparation
 
 For the data preparation you are going to have to consult the [Jupyter notebook](notebook.ipynb). It required a lot of effort to convert this data into inputs that can be fed into a machine learning model. (My model will be a convolutional neural network defined using Keras).
-
-
 
 ### The Model
 
